@@ -1,4 +1,3 @@
-import java.util.*;
 import static java.lang.System.out;
 class array_1
 {

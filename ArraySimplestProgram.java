@@ -1,5 +1,5 @@
 import static java.lang.System.out;
-class array_1
+class SimplestArrayProgram
 {
  public static void main(String args[])
  {

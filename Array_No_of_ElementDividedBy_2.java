@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.*;
-class arrray1
+class Array_No_of_ElementDividedBy_2
 {
 	public static void main(String args[])
 	{

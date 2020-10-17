@@ -1,6 +1,6 @@
 import java.util.*;
 import static java.lang.System.out;
-class array_2
+class ArrayTaking_Printing_Input_using_for_loop
 {
  public static void main(String args[])
  {

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 class add
 {
  public static void main(String args[])
@@ -10,5 +10,6 @@ class add
  y=sc.nextInt();
  z=x+y;
  System.out.println("\n"+z+" is addition ");
+ System.out.println();
 }
 }

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Vector;
 import static java.lang.System.out;
-class abcd
+class VectorProg1
 {
 	public static void main(String args[])
 	{
@@ -9,7 +9,7 @@ class abcd
 		int length=args.length;
 		for(int i=0;i<length;i++)
 		{
-			list.addELement(args[i]);
+			list.addElement(args[i]);
 		}
 		list.insertElementAt("COBOL",2);
 		int size=list.size();

@@ -1,6 +1,6 @@
 import java.util.*;
 import static java.lang.System.out;
-class cmdline2
+class CMDLine_Add_of_2_No
 {
  public static void main(String args[])
  {

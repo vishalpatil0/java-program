@@ -1,5 +1,5 @@
 import java.util.*;
-class conditional_operator_2
+class OneLine_ConditionalOperator
 {
  public static void main(String args[])
  {

@@ -1,4 +1,4 @@
-class array {
+class ArrayIndexWiseAssignment {
    public static void main(String[] args) {
 
       int[] age = new int[5];

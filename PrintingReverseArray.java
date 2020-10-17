@@ -1,20 +1,20 @@
-import java.util.*;
+import java.util.Scanner;
 import static java.lang.System.out;
-class arr1
+class PrintingReverseArray
 {
 	public static void main(String args[])
 	{
 		int arr[],n;
 		Scanner sc=new Scanner(System.in);
-		out.println("enter the limit of array");
+		out.println("Enter the limit of array");
 		n=sc.nextInt();
 		arr=new int[n];
-		out.println("enter the elt in array");
+		out.println("Enter the elements in array");
 		for(int i=0;i<n;i++)
 		{
 			arr[i]=sc.nextInt();
 		}
-		for(int i=n;i>0;i--)
+		for(int i=n-1;i>=0;i--)
 		{
 			out.println(arr[i]);
 		}

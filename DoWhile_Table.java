@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.*;
-class dowhile1
+class DoWhile_Table
 {
 	public static void main(String args[])
 	{
@@ -9,10 +9,10 @@ class dowhile1
 		Scanner sc=new Scanner(System.in);
 		i=sc.nextInt();
 		n=1;
-		out.println("table of "+i+" is");
+		out.println("Table of "+i+" is as follow");
 		do
 		{
-			out.println((i*n));	
+			out.format("%d * %d  = %d\n",i,n,i*n);	
 			n++;
 		}while(n<11);
 	}

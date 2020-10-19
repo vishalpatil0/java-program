@@ -1,18 +1,16 @@
-import java.io.*;
-import java.util.*;
 import static java.lang.System.out;
-class exception_3
+class Exception_Throw
 {
 	static void pro1()
 	{
 		try
 		{
-			out.println("inside method pro1");
-			throw new RunTimeException("vishal");
+			out.println("Method Name: pro1() is called");
+			throw new ArrayIndexOutOfBoundsException("Vishal");
 		}
 		finally
 		{
-			out.println("finally block of  pro1");
+			out.println("Finally block of  pro1");
 		}
 	}
 	static void pro2()
@@ -47,7 +45,7 @@ class exception_3
 		}
 		catch(Exception e)
 		{
-			out.println(e);
+			out.println("Exception thrown by pro1() method = "+e);
 		}
 		pro2();
 		pro3();

@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.*;
-class expr
+class Calculator_Float_value
 {
  public static void main(String args[])
  {

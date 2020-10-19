@@ -1,5 +1,5 @@
 import java.util.*;
-class elseif
+class IfElse_EvenOdd
 {
  public static void main(String args[])
 {

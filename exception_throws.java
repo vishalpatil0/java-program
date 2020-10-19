@@ -1,5 +1,3 @@
-import java.util.*;
-import java.io.*;
 class invalidAgeException extends Exception
 {
 	int age;

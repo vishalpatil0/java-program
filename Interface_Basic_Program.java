@@ -1,4 +1,3 @@
-	import java.io.*;
 interface area
 {
 	 final static float pi=3.14f;
@@ -18,7 +17,7 @@ class circle implements area
 	 return(pi*x*x);
     }
 }
-class interface1
+class Interface_Basic_Program
 {
 	public static void main(String args[])
 	{

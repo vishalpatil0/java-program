@@ -2,14 +2,12 @@ import static java.lang.System.out;
 import java.util.*;
 abstract class inhr
 {
-	protected
-	static int a=10;
+	protected static int a=10;
 	
 }
 abstract class asd extends inhr
 {	
-    protected
-    static int b=20;
+    protected static int b=20;
 	
 }
  class bcd extends asd
@@ -25,7 +23,7 @@ abstract class asd extends inhr
 	}
 }
 	
-class tp3
+class AbstractClass_Prog_1
 {
 	public static void main(String args[])
 	{   

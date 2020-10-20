@@ -1,5 +1,5 @@
 import java.util.*;
-class tp16
+class String_char_variables
 {
  public static void main(String args[])
  {

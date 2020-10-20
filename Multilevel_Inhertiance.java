@@ -25,7 +25,7 @@ class bcd extends asd
 	}
 }
 	
-class multiple_inheritance
+class Multilevel_Inhertiance
 {
 	public static void main(String args[])
 	{   

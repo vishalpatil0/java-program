@@ -1,12 +1,14 @@
 import java.util.*;
 import static java.lang.System.out;
-class tp10
+class WhileLoop_1_to_10
 {
  public static void main(String args[])
  {
-    for(int i=0;i<args.length;i++)
-	{
-	   out.println(args[i]);
-	 }
+  int i=0;
+  while(i<10)WhileLoop_1_to_10
+  {
+   out.println(i);
+   i++;
+  }
  }
 }

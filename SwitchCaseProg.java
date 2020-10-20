@@ -1,5 +1,5 @@
 import java.util.*;
-class switch1
+class SwitchCaseProg
 {
 	public static void main(String args[])
 	{

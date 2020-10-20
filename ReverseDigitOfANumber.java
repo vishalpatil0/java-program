@@ -1,5 +1,5 @@
 import java.util.*;
-class reverse
+class ReverseDigitOfANumber
 {
 	public static void main(String args[])
 	{

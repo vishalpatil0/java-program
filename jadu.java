@@ -24,9 +24,7 @@ class jadu
 	public static void main(String args[])
 	{
 		asd a=new asd();
-		a.display();
-		inhr b=new inhr();
-		b.loop();
+		a.loop();
 	}
 }
 		

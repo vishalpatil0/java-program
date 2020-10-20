@@ -1,6 +1,6 @@
 import java.util.*;
 import static java.lang.System.out;
-class tp5
+class SumOfEnteredDigit
 {
  public static void main(String args[])
  {
@@ -11,7 +11,7 @@ class tp5
 	int n=sc.nextInt();
 	do
 	{
-	  dsum=dsum+(n%10);
+	  dsum+=n%10;
 	  n=n/10;
 	 }while(n>0);
 	 out.println(dsum);

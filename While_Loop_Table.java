@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.*;
-class while1
+class While_Loop_Table
 {
 	public static void main(String args[])
 	{

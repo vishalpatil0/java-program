@@ -1,5 +1,5 @@
 import java.util.*;
-class whhile
+class While_Loop_Array
 {
 public static void main(String args[])
  {

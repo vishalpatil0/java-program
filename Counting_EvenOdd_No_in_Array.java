@@ -1,6 +1,6 @@
 import java.util.*;
 import static java.lang.System.out;
-class tp2
+class Counting_EvenOdd_No_in_Array
 {
  public static void main(String args[])
  {

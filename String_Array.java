@@ -1,6 +1,6 @@
 import java.util.*;
 import static java.lang.System.out;
-class tp6
+class String_Array
 {
  public static void main(String args[])
  {

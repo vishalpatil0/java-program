@@ -1,5 +1,5 @@
 import package1.*;
-class tp15
+class Importing_custom_packages
 {
   public static void main(String args[])
   {

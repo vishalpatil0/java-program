@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class switch2 {
+class SwitchCase_input_as_char {
     public static void main(String[] args) {
 
     	char operator;

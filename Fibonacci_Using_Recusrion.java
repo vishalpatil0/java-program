@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class fibonacci_recursion {
+ class Fibonacci_Using_Recusrion {
      static int fib(int n)
      {
         if(n<=1)

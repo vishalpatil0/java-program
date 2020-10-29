@@ -1,5 +1,6 @@
 class data
 {
+	
 	int a,b;
 	data() //Default Constructor
 	{

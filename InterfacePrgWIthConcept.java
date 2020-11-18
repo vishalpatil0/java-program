@@ -9,13 +9,14 @@ NOTE:
     5)  while overriding the method of interface they should be declare as public.
 */
 interface camera{
-    int a=10;
+    public int a=10;
     void click();
 }
 interface torch{
     void on();
 }
 class mobile implements camera,torch{
+    protected int a=14; //but you can override the properties .
     public void click(){
         System.out.println("Photo is clicked.");
     }
@@ -29,5 +30,6 @@ public class InterfacePrgWIthConcept {
         m.click();   
         m.on();    
         // m.a=13; //we cannot assign value to the final variable.
+        System.out.println(m.a);
     }
 }

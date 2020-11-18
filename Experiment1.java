@@ -1,24 +1,22 @@
-<<<<<<< HEAD
-interface ok{
-  void dis();
-}
-public class Experiment1 implements ok{
-  public void dis(){
-    System.out.println("hello there");
+class vishal{
+  int a;
+  void get(int a){
+    this.a=a;  
   }
-  public static void main(String[] args) {
-    Experiment1 ex=new Experiment1();
-    ok o;
-    o=ex;
-    o.dis();
-=======
-import java.util.Random;
-
+  void set(){
+    System.out.println(a);
+  }
+}
 public class Experiment1{
-  
-
-  public static void main(String args[]) {
- 
->>>>>>> 1af64fc3679e1f6da2abed7ff8363a6236f6ce6b
+  public static void main(String[] args) {
+    vishal vishu[]=new vishal[3];
+    for(int i=0;i<3;i++)
+    {
+      vishu[i].get(i);
+    }
+    for(int i=0;i<3;i++)
+    {
+      vishu[i].set();
+    }
   }
 }

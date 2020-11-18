@@ -1,36 +1,14 @@
-
-
-public class Experiment1{
-  
-  static int add(int n)
-  { 
-    if(n==0 || n==1)
-    {
-      return n;
-    }
-    else
-    {
-      return add(n-1)+add(n-2);/*
-            
-                 4/2   (2+1=3)    4/1 =     1+0       
-              -------------------------
-                 3/1   +   3/1=2
-              --------------------------
-                 2/1   +   0=1 
-              ---------------------------
-              
-
-
-      */
-    }
-   
+interface ok{
+  void dis();
+}
+public class Experiment1 implements ok{
+  public void dis(){
+    System.out.println("hello there");
   }
-
-  public static void main(String args[]) {
-   
-  for(int i=0;i<=10;i++)
-  {
-    System.out.println(add(i));
-  }
+  public static void main(String[] args) {
+    Experiment1 ex=new Experiment1();
+    ok o;
+    o=ex;
+    o.dis();
   }
 }

@@ -60,7 +60,7 @@ rect()
    out.println("this is triangle class\narea:"+area);
 }
 }
-class Abstract
+public class AbstractDemo
 {
 	public static void main(String args[])
 	{

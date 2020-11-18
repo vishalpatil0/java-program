@@ -7,7 +7,7 @@ class vishal{
       System.out.println(a);
     }
   }
-  public class Experiment1{
+  public class Array_of_Object{
     public static void main(String[] args) {
       vishal vishu[]=new vishal[3];
       for(int i=0;i<3;i++){

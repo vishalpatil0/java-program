@@ -1,2 +1,3 @@
-  // show s1=new show();
-  // s1.zxc();
+public void call_receiving(){
+    //   System.out.println("Receiving call in smartphone");
+    // }

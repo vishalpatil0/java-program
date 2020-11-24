@@ -1,4 +1,5 @@
 // default method are not compulsory to be overriden
+// Interface have abstract method(with no speacial "abstract" keyword.) So they must be overriden
 // private and default method have body in interface.
 // private method have scope only within its class or interface
 // so we can use them in defualt method by calling them there as below

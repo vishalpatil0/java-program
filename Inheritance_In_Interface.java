@@ -1,4 +1,4 @@
-//we can extends one interface into another interface.  
+//we can extends one interface into another interface. 
 interface base{
     void method1();
 }

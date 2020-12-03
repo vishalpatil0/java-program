@@ -1,4 +1,3 @@
-import java.io.*;
 class Demo extends Thread
 {
 	String str;

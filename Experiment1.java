@@ -1,21 +1,13 @@
-interface cellphone{
-  void torch();
-  default void call_receiving(){
-    System.out.println("receving call");
+class disco{
+  void display(){
+    System.out.println("ok ji");
   }
-}
-class smartphone implements cellphone{
-  public void torch(){
-    System.out.println("Turning on torch....");
-  }
-  public void call_receiving(){
-    System.out.println("Receiving call in smartphone");
-  }
+  protected int a=10;
 }
 public class Experiment1{
   public static void main(String[] args) {
-    smartphone s=new smartphone();
-    s.torch();
-    s.call_receiving();
+    disco d=new disco();
+    d.display();
+    System.out.println(d.a);
   }
 }

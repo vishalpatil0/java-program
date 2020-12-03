@@ -17,7 +17,7 @@ class thread1
  public static void main(String args[])
  {
   demo d1=new demo("java");
- new demo().start();
-  System.out.println("ty.....");
+//  new demo().start();
+//   System.out.println("ty.....");
  }
 }

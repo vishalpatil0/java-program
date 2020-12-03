@@ -1,4 +1,9 @@
-class vishal{ //in java there is only one public class
+//  In java there is only one public class
+//  in java only public,abstract and final are allowed for class.
+//  Final class:    a) Final classes are immutable classes
+//                  b) Final class can't be extended.
+ 
+class vishal{ 
     private int id;
     private String name;
     void setData(int n,String name)

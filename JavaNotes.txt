@@ -1,0 +1,54 @@
+1. Naming Conventions
+    a)Class name follows "Pascal Convention" means all first letter of each word are capital.
+    b)Function name follows "Camelcase Convention" means except the first letter of first world all other first letter of each words are capital.
+
+2. Data Types
+    #Java is statically typed language means you have to mention the type of variable before declaring it.
+    a) Primitive data types are intrinsive.
+    b) Non-primitve data type are derived.
+
+    1) Byte
+        --> Default value is 0.
+        --> Takes 1 byte.
+        --> Ranges from -128 to 127.
+        --> how -128 to 127?
+            = it took 1 byte so convert it into bit by multiplying 8 = 1*8 = 8 bits
+            = now bit to decimal conversion method 
+            = -(2^8)/2 to (2^8)/2-1
+            = basic explanation is that in 1 byte of storage which is 8 bit of storage we can store number(decimal) from 0 to 255 and to store number more than that we need extra bit.
+            = so either we can store 0 to 255 or -127 to 128.
+
+    2) Short
+        --> Value range from -(2^16)/2 to (2^16)/2-1
+        --> Takes 2 bytes
+        --> Default value is 0
+    
+    3)  Integer
+        --> Value ranges from -(2^32)/2 to (2^32)/2-1
+        --> Takes 4 bytes
+        --> Defualt value is 0.
+
+    4) Float
+        --> Takes 4 bytes
+        --> Default value is 0.0f
+
+    5) Long
+        --> Takes 8 bytes
+        --> Value ranges from -(2^64)/2 to (2^64)/2-1
+        --> Default value is 0
+    
+    6) Double
+        --> Takes 8 bytes.
+        --> Default value is 0.0d.
+
+    7) Char 
+        --> Value ranges from 0 to (2^16)-1.
+        --> Takes 2 bytes.
+        --> Defualt value is '/0000'
+    
+    8) Boolean
+        --> Value is true or false
+        --> Size depends on JVM
+        --> Defualt value is false.
+        
+

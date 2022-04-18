@@ -1,13 +1,14 @@
-class disco{
-  void display(){
-    System.out.println("ok ji");
-  }
-  protected int a=10;
-}
-public class Experiment1{
+
+import java.util.Scanner;
+
+class Experiment1{
   public static void main(String[] args) {
-    disco d=new disco();
-    d.display();
-    System.out.println(d.a);
+    int a,b;
+    System.out.print("Enter the value for a = ");
+    Scanner sc=new Scanner(System.in);
+    a=sc.nextInt();
+    System.out.print("Enter the value for b = ");
+    b=sc.nextInt();
+    System.out.println("Addition of "+a+"+"+b+" is "+(a+b));
   }
 }

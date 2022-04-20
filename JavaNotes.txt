@@ -51,4 +51,8 @@
         --> Size depends on JVM
         --> Defualt value is false.
         
+3. Strig is a class in java 
+    --> String str=new String("Vishal");  //one way to declare and define String
+    --> String str="Vishal";            //another way to create string.
+
 

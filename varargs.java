@@ -1,4 +1,10 @@
 public class varargs {
+    /**
+     * 
+     * @param a compulsory parameter in add method.
+     * @param arr variable argument it is an array and number of element are depened on how many elemetns are passed.
+     * @return sum of variable arguments
+     */
     static int add(char a,int ...arr)
     {
         /* ...arr is available as arr[] here

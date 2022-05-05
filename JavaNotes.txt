@@ -56,3 +56,4 @@
     --> String str="Vishal";            //another way to create string.
 
 
+4. Parent class of pre-defined classes in java is Obejct class.

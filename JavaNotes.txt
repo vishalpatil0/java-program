@@ -57,3 +57,7 @@
 
 
 4. Parent class of pre-defined classes in java is Obejct class.
+
+
+5. In java there is only one Public class
+

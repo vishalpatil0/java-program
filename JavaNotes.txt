@@ -3,7 +3,7 @@
     b)Function name follows "Camelcase Convention" means except the first letter of first world all other first letter of each words are capital.
 
 2. Data Types
-    #Java is statically typed language means you have to mention the type of variable before declaring it.
+    #Java is STATICALLY TYPED LANGUAGE means you have to mention the type of variable before declaring it.
     a) Primitive data types are intrinsive.
     b) Non-primitve data type are derived.
 
@@ -61,3 +61,9 @@
 
 5. In java there is only one Public class
 
+6. If you have declared a parametric constructor and creating object with no parameter then it will give error becasue a default constructor has to be there for handling object creation with no parameter.
+
+7.
+    this -> reference variable of current class
+    super -> used to invoke constructor, method, variable of parent class.
+    

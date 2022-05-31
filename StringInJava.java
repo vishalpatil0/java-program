@@ -1,10 +1,10 @@
 package com.company;
 /*
-Sting is a class and we create a object of class when we declare and initialize variable in class
+String is a class and we create a object of class when we declare and initialize variable in class
 
 it is not like other primitive data types
 String are immutable and cannot be change
-Means sting never change the memory location where string is stored never change and
+Means string never change the memory location where string is stored never change and
 when we modify the string variable the variable points to the new memory location
  */
 public class StringInJava {

@@ -24,7 +24,7 @@ class testthread2
 {
 	public static void main(String args[])
 	{
-		Demo t1=new Demo(args);
+		demo t1=new demo(args);
 		t1.start();
 	}
 }

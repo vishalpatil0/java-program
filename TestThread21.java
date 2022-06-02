@@ -3,7 +3,7 @@ class Demo extends Thread
 String str;
 	public Demo(String str)
 	{
-	this.str=str
+	this.str=str;
 	}
 	public void run()
 	{

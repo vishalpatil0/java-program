@@ -1,7 +1,0 @@
-int  double
-int float
-limited features 
-limited parameters
-return type value only in int
-registration
-registartion array limited

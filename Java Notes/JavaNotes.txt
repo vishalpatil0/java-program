@@ -1,0 +1,119 @@
+IMP:
+    #Java is hybrid language compiled and interpreted
+    #javac use compilation
+    # java use for interpretation
+    
+1. Naming Conventions
+    a)Class name follows "Pascal Convention" means all first letter of each word are capital.
+    b)Function name follows "Camelcase Convention" means except the first letter of first world all other first letter of each words are capital.
+
+2. Data Types
+    #Java is STATICALLY TYPED LANGUAGE means you have to mention the type of variable before declaring it.
+    a) Primitive data types are intrinsive.
+    b) Non-primitve data type are derived.
+
+    1) Byte
+        --> Default value is 0.
+        --> Takes 1 byte.
+        --> Ranges from -128 to 127.
+        --> how -128 to 127?
+            = it took 1 byte so convert it into bit by multiplying 8 = 1*8 = 8 bits
+            = now bit to decimal conversion method 
+            = -(2^8)/2 to (2^8)/2-1
+            = basic explanation is that in 1 byte of storage which is 8 bit of storage we can store number(decimal) from 0 to 255 and to store number more than that we need extra bit.
+            = so either we can store 0 to 255 or -127 to 128.
+
+    2) Short
+        --> Value range from -(2^16)/2 to (2^16)/2-1
+        --> Takes 2 bytes
+        --> Default value is 0
+    
+    3)  Integer
+        --> Value ranges from -(2^32)/2 to (2^32)/2-1
+        --> Takes 4 bytes
+        --> Defualt value is 0.
+
+    4) Float
+        --> Takes 4 bytes
+        --> Default value is 0.0f
+
+    5) Long
+        --> Takes 8 bytes
+        --> Value ranges from -(2^64)/2 to (2^64)/2-1
+        --> Default value is 0
+    
+    6) Double
+        --> Takes 8 bytes.
+        --> Default value is 0.0d.
+
+    7) Char 
+        --> Value ranges from 0 to (2^16)-1.
+        --> Takes 2 bytes.
+        --> Defualt value is '/0000'
+    
+    8) Boolean
+        --> Value is true or false
+        --> Size depends on JVM
+        --> Defualt value is false.
+        
+3. Strig is a class in java 
+    --> String str=new String("Vishal");  //one way to declare and define String
+    --> String str="Vishal";            //another way to create string.
+
+
+4. Parent class of pre-defined classes in java is Obejct class.
+
+
+5. In java there is only one Public class
+
+6. If you have declared a parametric constructor and creating object with no parameter then it will give error becasue a default constructor has to be there for handling object creation with no parameter.
+
+7.
+    this -> reference variable of current class
+    super -> used to invoke constructor, method, variable of parent class.
+    
+8. We can create variable of abstract not reference.
+    -Abstract Class: atleast one abstract method 
+    -normal class don't have abstract method
+
+9. Interface variable are static and final by Defualt
+    -you can override variable of interface in derived class
+    -interface have static and default methods
+    -defualt methods have body in interface and they can be overriden in child class
+    -if we add new method in interface then we have to add its implementation in every class where we have implemented the interface
+    -but with default mehtod it is not compulsion that class implementing the interface should add it
+    -interface don't have protected method and private method have body but public don't have body 
+    - defualt method are only allowed in interfaces
+    - we can create the reference of interface
+
+10. explicit assignment of final varaible is only possible through constructor
+
+11. java can have empty class
+
+12. Demo demo; // this is how we create reference
+    new Demo(); //this is how we create object
+    object is a instance of a class and stays in heap memory of class
+    reference variable points to the address of that object
+
+13. Access Specifier
+    # protected can be accessed like public but not outside of the packages
+    # default access are only accessible in same package 
+        we can't use them in subclass form another package
+    # 
+
+14. Thread : -use shared memory
+             -faster context switching
+             -lightweight
+             -2 ways to create
+             a)Thread class
+             b)Runnable Interface
+        
+15. Instance variable is a variable which is declared withing class but not in any constructor or method.
+    Basically a class level variable
+
+16. java.lang is by default imported package of java.
+    it contain System class which helps for System.out.println("");
+    you don't need to import it explicity.
+    java.lang contain System, String, StringBuffer and many more classes.
+
+17. In java there is no nextChar() method so we use next().CharAt(0) approach to take the first character of the entered string.

@@ -1,2 +1,0 @@
-Class name follows "Pascal Convention" means all first letter of each word are capital.
-Function name follows "Camelcase Convention" means except the first letter of first world all other first letter of each words are capital.

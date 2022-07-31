@@ -9,3 +9,4 @@ public class TernaryOperator {
         System.out.println("Greatest number is = "+result);
     }
 }
+ 

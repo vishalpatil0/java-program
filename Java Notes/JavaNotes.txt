@@ -19,7 +19,7 @@ IMP:
         --> how -128 to 127?
             = it took 1 byte so convert it into bit by multiplying 8 = 1*8 = 8 bits
             = now bit to decimal conversion method 
-            = -(2^8)/2 to (2^8)/2-1
+            = -(2^8)/2 to ((2^8)/2)-1
             = basic explanation is that in 1 byte of storage which is 8 bit of storage we can store number(decimal) from 0 to 255 and to store number more than that we need extra bit.
             = so either we can store 0 to 255 or -127 to 128.
 
@@ -76,15 +76,15 @@ IMP:
     -Abstract Class: atleast one abstract method 
     -normal class don't have abstract method
 
-9. Interface variable are static and final by Defualt
-    -you can override variable of interface in derived class
-    -interface have static and default methods
+9. Interface variable are static and final by Defualt [public+static+final]
+    -interface have static and default methods 
+    by defualt method are = [abstract + public]
     -defualt methods have body in interface and they can be overriden in child class
     -if we add new method in interface then we have to add its implementation in every class where we have implemented the interface
     -but with default mehtod it is not compulsion that class implementing the interface should add it
     -interface don't have protected method and private method have body but public don't have body 
     - defualt method are only allowed in interfaces
-    - we can create the reference of interface
+    - we can create the reference variable of interface
 
 10. explicit assignment of final varaible is only possible through constructor
 
@@ -121,3 +121,23 @@ IMP:
 18. Access modifier for class in java are -> public, default, abstract and final.
 
 19. You cannot inherit final class or extend it.
+
+17. Maximum string method returns some value in java.
+
+18. In java do not use  == for checking equality of strings use .equals() method.
+
+19. this keyword helps to call the default constructorof that class syntax : this()
+
+20. Instance block execute before constructor everytime object of that class is created.
+    Syntax: 
+    {//instance block
+        //statements
+    }
+
+21. Static block doesn't need instantination like instance block it can execute without creating an object.
+    Syntax:
+    static{
+        //static blocks
+    }
+
+22. static import : means you can acces the static variables and static method of imported class without using the classname.

@@ -140,4 +140,51 @@ IMP:
         //static blocks
     }
 
-22. static import : means you can acces the static variables and static method of imported class without using the classname.
+22. Static import : means you can acces the static variables and static method of imported class without using the classname.
+
+23. We cannot declare class like this class name; (like c++) but we can have empty class 
+    -> class name{};
+
+24. Main method is static as interpreter use this method before any objects are created.
+
+25. Types of comments
+    a. // single line comment
+    b. /* */ multiline comment
+    c. /** */ Document comment
+
+26. Smallest individual units of program are called as tokens. 
+    Types of tokens:
+    a. Reserved keywords
+    b. literals
+    c. separtors
+    d. opertors
+    e. identifiers
+
+27. Volatile keywords : 
+                        a. Cannot be use with classes or methods, only usable with variables.
+                        b. Volatile keyword is used to modify the value of a variable by different threads.
+                        c. Need of volatile: 
+                        -> assume that two threads are working on the same class. Both threads run on different processors where each thread has its local copy of var. If any thread modifies its value, the change will not reflect in the original one in the main memory. It leads to data inconsistency because the other thread is not aware of the modified value.
+                        d. It can be used as an alternative way of achieving synchronization in Java.
+                        
+28. Integer can store value in octal, decimal and binary format.
+        Octal ->  int num = 010; means 8 in decimal
+        Note: octal number start with 0 as prefix
+
+        Hexadecimal --> int num = 0xc; means 12
+        Note: starts with 0x OR 0X as prefix
+
+        Binary -> int num = 0b11; means 3
+        Note: starts with 0b OR 0B as prefix.
+
+        Java also support mantisa e exponent
+
+        0.65e4 means 0.65 * 10^4
+
+29. Vairable denotes the storage location which is used to store data value.
+
+30. Java does not support the concept of unsigned data type.
+
+31. while assigning value to float always make sure that u put f at the end of the constant.
+    e.g --> float value = 12.3f;
+

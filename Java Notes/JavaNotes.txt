@@ -188,3 +188,7 @@ IMP:
 31. while assigning value to float always make sure that u put f at the end of the constant.
     e.g --> float value = 12.3f;
 
+32. For modulo opertor the sign of the result is always the sign of the first operand.
+    e.g. --> -a % b = -c
+
+33. Unlike c & c++ % operator can be applied to floating point as well.

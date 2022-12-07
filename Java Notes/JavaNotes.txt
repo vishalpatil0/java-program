@@ -90,10 +90,14 @@ IMP:
 
 11. java can have empty class
 
-12. Demo demo; // this is how we create reference
-    new Demo(); //this is how we create object
-    object is a instance of a class and stays in heap memory of class
-    reference variable points to the address of that object
+12. ClassName classObject1;                 //Declaring a variable to hold the reference to the object
+    classObject1 = new ClassName();         //Assigning the reference to the object to the variable.
+
+    ClassName v1,v2;
+	v1=v2=new ClassName();
+
+    Note: In Java you can have multiple variable of a "Class" data type pointing to the same reference of the object.
+    
 
 13. Access Specifier
     # protected can be accessed like public but not outside of the packages
@@ -192,3 +196,9 @@ IMP:
     e.g. --> -a % b = -c
 
 33. Unlike c & c++ % operator can be applied to floating point as well.
+
+34. In java array is also known as single sub-scripted variable.
+
+35. Strings are immutable in java to save memeory and provide security. Also it helps classloaders. There is string constant pool which contains all the string literals.
+
+36. Java StringBuffer class is thread-safe i.e. multiple threads cannot access it simultaneously. So it is safe and will result in an order.

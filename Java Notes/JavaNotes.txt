@@ -103,7 +103,7 @@ IMP:
     # protected can be accessed like public but not outside of the packages
     # default access are only accessible in same package 
         we can't use them in subclass form another package
-    # 
+    # If you only want the properties of the base class are accessible by the child class then use "private protected" access specifier.
 
 14. Thread : -use shared memory
              -faster context switching
@@ -143,6 +143,7 @@ IMP:
     static{
         //static blocks
     }
+    Note: to be abel to execute static block you need to use that class.
 
 22. Static import : means you can acces the static variables and static method of imported class without using the classname.
 
@@ -202,3 +203,69 @@ IMP:
 35. Strings are immutable in java to save memeory and provide security. Also it helps classloaders. There is string constant pool which contains all the string literals.
 
 36. Java StringBuffer class is thread-safe i.e. multiple threads cannot access it simultaneously. So it is safe and will result in an order.
+
+37. Vector is dynamic array of generic type means can contain objects(elements) of any class but not primitve data types.
+
+38. A class can only be declared static if it is nested class.
+    --> The property of the static class is that it does not allows us to access the non-static members of the outer class.
+    --> We cannot access the static class if it is inside the static block.
+    
+39. Packages:
+    -> Already avaialble classes in java are known as Java API packages.
+    -> java.lang is already imported package which contain classes for primitve data type, classes like (exception, string, math and thread). java.lang is use by the java compiler.
+    -> package name begin with lowercase letter.
+    -> While creating custom packge thing to consider:
+        --> The package (directory) must contain the java file.
+        --> javac -d . class.java : here the class.java contain the package declaration line which is package e.g com.java.util;
+        --> If you have 2 java file in one directory then you can use a class from another file in one file doesn't matter if the class have default or public scope.
+        --> You can only import public classes from another packages.
+    -> We cannot put 2 public classes in 1 java file bcoz the class (with main method) name should be same as the file name for ease in convienience.
+
+40. If you are using super and this for invoking the constructor then they must be the first statements.
+    -> and you can invoke the parent class constructor only in the child class constructor.
+
+41. Multi-threading
+    -> 'Threads running in parallel' doesn't mean that they actually run at the same time.
+    -> java interpreter handles the switching of control between the threads in such way that it appears they are running concurrently.
+    -> run() method of the thread contains the body of thread where all action takes place.
+    -> Thread can start by the start() method.
+    -> Life cycle of thread :
+        1) newborn state : means the object of the class which contain run method is just created.
+        2) runnable state : the start() method of that object is just called. Means the thread is in queue now waiting for its turn.
+        3) running state : os selecte it for running and it is currently executing the code block in the run method.
+        4) blocked state : thread got sleep, suspend, yeild and wait
+        5) dead state : killed! (Thread moved to the dead state when it completes the execeution of the run method code block)
+
+    -> Each thread have its call stack.
+    -> if we call the run method separately then it will run like normal method and won't have its separate call stack means it will put in the main thread call stack.
+    -> Block thread : 
+                1) sleep(time in microsecond) (1000 microsecond = 1 second) 
+                    blocked for specific time and after that get put in the ready queue waiting for its turn to run
+                2) suspend : blocked unitil resume() is called on that thread and after that it get moved to the runnable state.
+                3) yeild : moved to the runnable state (ready queue)
+                4) wait : blocked until notifiy is called
+    -> synchronized keyword: acts like a monitor : means a key : a thread which contain this key can only access that synchronized code.
+        --> synchronized can only be used on method and block.
+        --> only one thread can use the metnod/block at a time.
+    -> inter thread communication is done by using three methods   
+        --> notify(), wait(), notifiyall()
+
+42. Exception handling
+    -> Syntax error are caught by java compiler.
+    -> An excpeiton is a condition that is caused by run-time error in the program.
+    -> Types of Exception:
+        --> Checked excpeption : handled explicitly in the code by try catch block. Extended from java.lang.Exception class.
+        --> Unchecked excpetion : Not handled in the code. JVM handles it. Extended from java.lang.RuntimeException class.
+        Difference is that how they are handled.
+
+    -> try without catch cannot work. but try without catch but with finally can work. still though it throws the excpeiton and terminate the execeution of the rest of program.
+    -> empty catch works. eg. catch(Exception e){};
+    -> if the thrown exception doesn't find any relevant catch statement then it is handles by the interpreter.
+    -> finally has to be come after catch.
+    -> can create custom excpetion class by extending java.lang.Exception in your class.
+    -> throw keyword will help you to throw the custom exception
+    -> throws let the caller method knows that this method holds the ability to throw this this type of excpetion.
+    -> try-with-resource means you don't have to close the resource explicitly in the finally block or somewhere else.
+        --> try(BufferedReader br = new BufferedReader(<filePath>)){
+
+        } //this file handling get closed automatically after the try block completion.

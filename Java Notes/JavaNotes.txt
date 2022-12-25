@@ -132,7 +132,7 @@ IMP:
 
 19. this keyword helps to call the default constructorof that class syntax : this()
 
-20. Instance block execute before constructor everytime object of that class is created.
+20. Instance block execute before "CONSTRUCTOR" everytime object of that class is created.
     Syntax: 
     {//instance block
         //statements
@@ -237,7 +237,7 @@ IMP:
         5) dead state : killed! (Thread moved to the dead state when it completes the execeution of the run method code block)
 
     -> Each thread have its call stack.
-    -> if we call the run method separately then it will run like normal method and won't have its separate call stack means it will put in the main thread call stack.
+    -> if we call the run method separately then it will run like normal method and won't have its separate call stack means it will get put in the main thread call stack.
     -> Block thread : 
                 1) sleep(time in microsecond) (1000 microsecond = 1 second) 
                     blocked for specific time and after that get put in the ready queue waiting for its turn to run
@@ -269,3 +269,5 @@ IMP:
         --> try(BufferedReader br = new BufferedReader(<filePath>)){
 
         } //this file handling get closed automatically after the try block completion.
+
+43. If you are using child class object with parent class reference then you will only be able to use the child class overriden method from super class.

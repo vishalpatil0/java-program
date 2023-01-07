@@ -147,7 +147,7 @@ IMP:
 
 22. Static import : means you can acces the static variables and static method of imported class without using the classname.
 
-23. We cannot declare class like this class name; (like c++) but we can have empty class 
+23. We cannot declare class like this <<class name;>> (like c++) but we can have empty class 
     -> class name{};
 
 24. Main method is static as interpreter use this method before any objects are created.
@@ -271,3 +271,5 @@ IMP:
         } //this file handling get closed automatically after the try block completion.
 
 43. If you are using child class object with parent class reference then you will only be able to use the child class overriden method from super class.
+
+44. You can have abstract class without abstract methods in it.

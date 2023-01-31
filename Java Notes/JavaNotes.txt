@@ -273,3 +273,6 @@ IMP:
 43. If you are using child class object with parent class reference then you will only be able to use the child class overriden method from super class.
 
 44. You can have abstract class without abstract methods in it.
+
+45. By default java doesn't allow to store object in file using ObjectOutputStream class. 
+    To store object in file you need to implement serilizable interface in that class.

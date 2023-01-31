@@ -276,3 +276,7 @@ IMP:
 
 45. By default java doesn't allow to store object in file using ObjectOutputStream class. 
     To store object in file you need to implement serilizable interface in that class.
+
+    - If you want omit some properties from get serialized then you can yous transient keyword infront of them. By this then won't get serialized. 
+    - But using transient on thousand of places is not a quite good solution, so to avoid this problem java came up with the solution known as externalization where you have to implement the Externalization interface.
+    - By doing so you implement 2 methods and in which you can write which property you want to serialized.
